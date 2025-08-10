@@ -11,7 +11,7 @@ export default function Nav() {
           <span className="font-semibold">CAVEnews PROductions</span>
         </Link>
         <div className="flex items-center gap-6 text-sm">
-          <Link href="/projects" className="hover:text-brand">Projekte</Link>
+          <Link href="/productions" className="hover:text-brand">Produktionen</Link>
           <Link href="/about" className="hover:text-brand">Über uns</Link>
           <Link href="/contact" className="hover:text-brand">Kontakt</Link>
           <ThemeToggle />

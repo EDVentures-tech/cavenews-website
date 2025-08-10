@@ -9,3 +9,11 @@ html { scroll-behavior: smooth; }
   background-image: radial-gradient(rgba(255,255,255,0.06) 1px, transparent 1px);
   background-size: 24px 24px;
 }
+
+/* brand glow utility */
+.btn-brand {
+  box-shadow:
+    0 0 0 1px rgba(0,209,255,0.35) inset,
+    0 10px 30px rgba(0,209,255,0.12),
+    0 2px 8px rgba(0,209,255,0.14);
+}
